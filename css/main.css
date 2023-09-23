@@ -1,0 +1,34 @@
+/* Meu primeiro comenário */
+/*reset do css para o navegador */
+*{
+ margin: 0; /*margem */
+ padding: 0; /*preenchimento */ 
+}
+
+body{
+    height:100% ; /* altura */ 
+    width:100% ; /* largura */
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#9ed8ab #cc0909);
+    background-repeat: no-repeat;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.imagem img{
+    width: 170px;
+    border-radius: 200px;
+    margin-top: 30px;
+}
+
+.name{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    color:rgb(4, 97, 66);
+    font-family: 'Courier New', Courier, monospace;
+}
