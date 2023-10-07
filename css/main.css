@@ -10,7 +10,7 @@ body{
     width:100% ; /* largura */
     display: flex;
     justify-content: center;
-    background: linear-gradient(#a1ddbc, #ffffff, #eb4141);
+    background: linear-gradient(#64d396, #ffffff, #be0707bb);
     background-repeat: no-repeat;
 }
 .imagem{
@@ -31,8 +31,10 @@ body{
     color:rgb(4, 97, 66);
     font-family: 'Courier New', Courier, monospace;
 }
+    /*topico redes sociais */
     .redes-sociais{
         margin-top: 10px;
+        margin-bottom: 50px;
         display: flex;/*organizar itens na mesma linha */
         justify-content: center; 
         align-items: center; /*alinhamento de itens */
@@ -85,7 +87,7 @@ body{
     }
 
     .icon:nth-child(1):hover i{
-    background: #7c7272;
+    background: #b16899;
     }
 
     .icon:nth-child(2):hover i{
@@ -107,3 +109,103 @@ body{
  .email:hover i{
    background: palevioletred;
     }
+
+    /* Fim CSS Redes sociais */
+
+
+    /* Css TEXTO */
+    .texto{
+        display: flex;
+        justify-content: center; /* centalizar texto */
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 35px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-align:left;
+        width: 500px;
+        height: 150px;
+        padding:20px 30px 20px 40px ;
+        border-radius:24px; 
+        color:#000000;
+        background:#cadbee;
+        overflow: hidden;
+        box-shadow: 0 3px 3px rgba(0,0,0,0.5); /* RGB-A = Alpha para transparência */
+        cursor: pointer; 
+    }
+    .titulo{
+     display: flex;
+     justify-content: center; /*centralizar texto */
+     align-items: center;
+     margin: auto;
+     margin-top: 20px;
+     display: flex;
+     color: #7260dd;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 25px;
+     text-align:justify; 
+    }
+
+.linguagem{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.linguagem img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    border-radius:200px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px rgb(98, 98, 98);
+}
+ .projetos{
+    margin: auto;
+    margin-top: 40px;
+    flex-direction: column; 
+ }
+ .projetos a{
+  text-decoration:none; /* é usada para definir a formatação de underline*/
+  color: #000000;
+ } 
+
+ .item{
+    margin: auto;
+    display: flex; /*nulo */
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 22px;
+    color:#000000;
+    border: 1px solid #000000;
+    border-radius: 10px; 
+    width: 570px;
+    height: 60px;
+    margin-bottom: 7px; 
+    background: #c7c8c8;
+    box-shadow: 0 5px 5px #000000;
+    cursor: pointer;
+ }
+
+ #video{
+  padding: 10px;
+  margin: auto;
+  display:none;
+ }
+
+ #video.active{
+    display: block;
+ }
+ 
+ .rodape{
+    color: #9c2173;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+ }
