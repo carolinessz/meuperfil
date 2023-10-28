@@ -1,29 +1,26 @@
-// tres constantes para referenciar as ITEM nas divs projetos
-const Amarnãoépecado=document.getElementById('Amar não é pecado');
-const Luansantana=document.getElementById('Luan santana');
-const Meuamor=document.getElementById('Meu amor');
+// tres(3) contantes para refeenciar os ID das DIVS no projeto
+const musica = document.getElementById('musica');
+const luan = document.getElementById('luan');
+const amor = document.getElementById('amor');
 
-const videoAmarnãoépecado=document.querySelector('.videoAmarnãoépecado');
-const videoLuansantana=document.querySelector('.videoLuansantana');
-const videoMeuamor=document.querySelector('.videoMeuamor');
+// tres(3) constantes para referenciar os ID dos iframes 
+const videoMusica = document.querySelector('#videoMusica');
+const videoLuan = document.querySelector('#videoLuan');
+const videoAmor = document.querySelector('#videoAmor');
 
-// evento de click
-Amarnãoépecado.addEventListener('clik',()=>{
-    Amarnãoépecado.classList.toggle('active');
-    videoAmarnãoépecado.classList.toggle('active');
-    videoLuansantana.classList.toggle('active');
-    videoMeuamor.classList.toggle('active');
+// evento do click 
+musica.addEventListener('click', () =>{
+    musica.classList.toggle('active'); 
+    videoMusica.classList.toggle('active');
 });
 
-Luansantana.addEventListener('clik',()=>{
-    Amarnãoépecado.classList.toggle('active');
-    videoAmarnãoépecado.classList.toggle('active');
-    videoLuansantana.classList.toggle('active');
-    videoMeuamor.classList.toggle('active');
+luan.addEventListener('click',() =>{
+    luan.classList.toggle('active');
+    videoLuan.classList.toggle('active');
 });
 
-Meuamor.addEventListener('clik',()=>{
-    Amarnãoépecado.classList.toggle('active');
-    videoAmarnãoépecado.classList.toggle('active');
-    videoLuansantana.classList.toggle('active');
-    videoMeuamor.classList.toggle('active');
+amor.addEventListener('click', () =>{
+    amor.classList.toggle('active');
+    videoAmor.classList.toggle('active');
+});
+

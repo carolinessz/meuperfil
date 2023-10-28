@@ -196,18 +196,20 @@ body{
     box-shadow: 0 5px 5px #000000;
     cursor: pointer;
  }
-
- #video{
+.item:hover{
+    background: #c285c2;
+    transition: 0.5s;
+}
+.video{
   padding: 10px;
   margin: auto;
   display:none;
  }
-
- #video.active{
+.video.active{
     display: block;
- }
+}
  
- .rodape{
+.rodape{
     color: #9c2173;
     font-size: 25px;
     display: flex;
@@ -238,7 +240,7 @@ body{
     .item{
         width: 350px;
     }
-    #video{
+    .video{
         width: 330px;
     }
  }  /* fim resolução 700px */
@@ -262,7 +264,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    #video{
+    .video{
         width: 270px;
         height: 160px;
     }
